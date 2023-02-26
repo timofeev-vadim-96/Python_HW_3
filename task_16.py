@@ -13,7 +13,7 @@
 # поэтому я решил искать хотя бы цифру, а не число...
 N = int(input('Введите размер массива: '))
 list_1 = [i for i in range(1, N+1)]
-find_N = input('Введите искомое число: ')
+find_N = input('Введите искомую цифру: ')
 output_string = str(list_1)
 counter = 0
 for i in output_string:
